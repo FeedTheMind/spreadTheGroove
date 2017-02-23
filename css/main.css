@@ -1,0 +1,43 @@
+/**************
+General
+**************/
+*,
+*:before,
+*: after: {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c2929;
+  overflow: hidden;
+  font-family: Georgia, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Gloria Hallelujah';
+}
+
+.numAndColor {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;  
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.newShapes {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid #000;
+}
+
+.newShapes:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 20%;
+}
